@@ -1,1 +1,2 @@
 web: gunicorn crime_report_app3.wsgi
+web: python manage.py migrate && gunicorn project_name.wsgi
